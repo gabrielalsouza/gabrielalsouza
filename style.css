@@ -1,0 +1,54 @@
+html,
+body {
+  background: url(https://www.nawpic.com/media/2020/axolotl-nawpic-5-e1664473100605.webp) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+h1 {
+  font-size: 3rem; 
+  color: #3066c9;
+  border: hidden;
+ 
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  border-width: 5px;
+  background-color: black;
+  border-color: black;
+  color: white;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: black; 
+  --bs-btn-hover-color: black;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border-color: #white;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
